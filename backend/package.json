@@ -1,0 +1,34 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "init-db": "rm -f dev.sqlite3&&npx knex migrate:latest --env development&&npx knex seed:run --env development",
+    "dev": "set NODE_ENV=development&&nodemon index.js"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "keyv": "^3.1.0",
+    "knex": "^0.16.5",
+    "mysql": "^2.17.1",
+    "objection": "^1.6.8",
+    "sqlite3": "^4.0.6",
+    "swagger-jsdoc": "^3.2.9",
+    "swagger-ui-express": "^4.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-promise": "^4.1.1"
+  },
+  "private": true
+}
