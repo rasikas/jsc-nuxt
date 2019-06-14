@@ -1,3 +1,9 @@
+# SLIDES
+
+https://docs.google.com/presentation/d/1bOfALHMcVzKaXTfgvwaCM4eCkkxaCjuhEuOTJNK92Ds/edit?usp=sharing
+
+## IGNORE BELOW
+
 Scaffold the frontend
 
 [Nuxt Structure]
